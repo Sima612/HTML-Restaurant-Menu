@@ -1,20 +1,24 @@
+#contact {
+    text-align: center;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(82, 61, 4);
     text-align: center;
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: black;
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: black;
 }
 
 img {
@@ -28,7 +32,7 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: rgb(82, 61, 4);
     padding: 10px;
 }
 
@@ -44,7 +48,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: black;
     margin-right: 25px;
 }
 
@@ -66,7 +70,7 @@ nav a:hover {
 .service {
     display: inline-block;
     background-color: white;
-    border: 5px solid green;
+    border: 5px solid darkred;
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
@@ -75,8 +79,10 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid darkred;
     width: 100%;
+    background-color: white;
+    color: darkred;
 }
   
 td,
